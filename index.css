@@ -1,7 +1,15 @@
 .heading {
     text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
-h1 {
-    color: gray;
+.heading > h1 {
+    color: brown;
+}
+
+
+.project_list {
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: bold;
 }
