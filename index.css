@@ -1,15 +1,42 @@
+html {
+    background-color: rgb(244, 225, 200);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    min-height: 100%;
+}
+
+img {
+    margin: -50px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 2em;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+}
+
 .heading {
     text-align: center;
-    font-family: Helvetica, Arial, sans-serif;
+    
 }
 
 .heading > h1 {
     color: brown;
 }
 
-
-.project_list {
-	text-align: center;
+.projects {
 	font-family: Helvetica;
 	font-weight: bold;
+    display: table;
+    margin: 2em auto;
 }
+
+.projects > ul > li {
+    margin: 1em;
+}
+
