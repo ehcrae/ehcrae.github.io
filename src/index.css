@@ -1,14 +1,10 @@
 html {
-    background-color: rgb(244, 225, 200);
+    background-color: rgb(169, 169, 169);
     font-family: Helvetica, Arial, sans-serif;
 }
 
 body {
     min-height: 100%;
-}
-
-img {
-    margin: -50px;
 }
 
 .footer {
@@ -20,13 +16,17 @@ img {
     font-style: italic;
 }
 
+.footer_img {
+    max-height: 2em;
+    margin-top: 10px;
+}
+
 .heading {
     text-align: center;
-    
 }
 
 .heading > h1 {
-    color: brown;
+    color: black;
 }
 
 .projects {
@@ -39,4 +39,3 @@ img {
 .projects > ul > li {
     margin: 1em;
 }
-
