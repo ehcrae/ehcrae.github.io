@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(169, 169, 169);
+    background-color: rgb(229, 238, 238);
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -7,17 +7,35 @@ body {
     min-height: 100%;
 }
 
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+    border-bottom: 1px dashed black;
+}
+.menu ul {
+    display: inline-block;
+}
+.menu ul a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+
 .heading {
     text-align: center;
 }
-.heading > h1 {
+.heading h1 {
     color: black;
 }
-.heading > img {
+.heading img {
     filter: blur(2px) saturate(80%) contrast(80%);
     -webkit-filter: blur(2px) saturate(80%) contrast(80%);
 }
-.heading > img:hover {
+.heading img:hover {
     filter: none;
 }
 
@@ -26,12 +44,12 @@ body {
     display: table;
     margin: 2em auto;
 }
-.projects > ul {
+.projects ul {
     list-style-type: none;
     padding: none;
     margin: none;
 }
-.projects > ul > li {
+.projects ul li {
     margin: 1em;
 }
 
