@@ -7,23 +7,25 @@ body {
     min-height: 100%;
 }
 
-.menu {
+nav.menu ul {
     list-style-type: none;
-    padding-left: 0;
-    border-bottom: 1px dashed black;
+    margin: 0;
+    padding: 16px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
 }
-.menu ul {
-    display: inline-block;
+nav.menu li {
+    display: block;
+    float: left;
+    
 }
-.menu ul a::after {
-    display: inline-block;
-    color: #000;
-    content: '>';
-    font-size: 80%;
-    font-weight: bold;
-    padding: 0 3px;
+nav.menu li a {
+    text-decoration: none;
 }
-
+nav.menu a:hover {
+    color: rosybrown;
+}
 
 .heading {
     text-align: center;
