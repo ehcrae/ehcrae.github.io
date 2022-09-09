@@ -18,13 +18,13 @@ nav.menu ul {
 nav.menu li {
     display: block;
     float: left;
-    
 }
 nav.menu li a {
     text-decoration: none;
+    color: black;
 }
-nav.menu a:hover {
-    color: rosybrown;
+nav.menu li a:hover {
+    color: grey;
 }
 
 .heading {
@@ -36,20 +36,20 @@ nav.menu a:hover {
 .heading img {
     filter: blur(2px) saturate(80%) contrast(80%);
     -webkit-filter: blur(2px) saturate(80%) contrast(80%);
+    max-width: 100%;
 }
 .heading img:hover {
     filter: none;
 }
 
 .projects {
-	font-weight: bold;
+    font-weight: bold;
     display: table;
     margin: 2em auto;
 }
 .projects ul {
-    list-style-type: none;
     padding: none;
-    margin: none;
+
 }
 .projects ul li {
     margin: 1em;
@@ -58,7 +58,7 @@ nav.menu a:hover {
 .footer {
     position: fixed;
     left: 0;
-    bottom: 2em;
+    bottom: 1em;
     width: 100%;
     text-align: center;
     font-style: italic;
