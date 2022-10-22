@@ -1,6 +1,28 @@
 html {
     background-color: #5F7161;
     font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container {
+    background-color: #6D8B74;
+    border-radius: 10px;
+}
+.menu ul {
+    list-style-type: none;
+    /*margin: 0;*/
+    padding: 16px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+.menu li a {
+    text-decoration: none;
+    color:  #EFEAD8;
+}
+.menu li a:hover {
+    color: #D0C9C0;
 }
 
 .body-container {
@@ -10,33 +32,11 @@ html {
     margin-top: -4px;
 }
 body {
-    min-height: 100%;
     color: #D0C9C0;
     text-align: center;
     align-items: center;
+    width: 640px;
 }
-
-.menu-container {
-    background-color: #6D8B74;
-    border-radius: 10px;
-}
-nav.menu ul {
-    list-style-type: none;
-    /*margin: 0;*/
-    padding: 16px;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-around;
-}
-nav.menu li a {
-    text-decoration: none;
-    color:  #EFEAD8;
-}
-nav.menu li a:hover {
-    color: #D0C9C0;
-}
-
-
 
 .footer {
     position: fixed;
@@ -45,7 +45,6 @@ nav.menu li a:hover {
     width: 100%;
     text-align: center;
 }
-
 .footer_img {
     max-height: 2em;
     margin-top: 10px;
@@ -55,7 +54,6 @@ nav.menu li a:hover {
 .splash-img {
     filter: blur(2px) saturate(80%) contrast(80%);
     -webkit-filter: blur(2px) saturate(80%) contrast(80%);
-    max-width: 100%;
     margin: -20px;
 }
 .splash-img:hover {
