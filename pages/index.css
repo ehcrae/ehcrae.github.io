@@ -33,9 +33,10 @@ html {
 }
 body {
     color: #D0C9C0;
-    text-align: center;
+    text-align: left;
     align-items: center;
     width: 640px;
+    text-indent: 2vw;
 }
 
 .footer {
