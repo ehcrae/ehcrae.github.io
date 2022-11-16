@@ -3,6 +3,7 @@ html {
     font-family: Helvetica, Arial, sans-serif;
     display: flex;
     justify-content: center;
+    line-height: 1.15;
 }
 
 .menu-container {
@@ -28,15 +29,16 @@ html {
 .body-container {
     background-color: #6D8B74;
     border-radius: 10px;
-    padding: 8px;
-    margin-top: -4px;
+    padding: 18px;
 }
 body {
     color: #D0C9C0;
     text-align: left;
     align-items: center;
     width: 640px;
-    text-indent: 2vw;
+}
+h1 {
+    text-align: center;
 }
 
 .footer {
