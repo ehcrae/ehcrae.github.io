@@ -42,7 +42,7 @@ h1 {
 }
 
 .footer {
-    position: fixed;
+    margin-top: 1em;
     left: 0;
     bottom: 1em;
     width: 100%;
@@ -66,6 +66,22 @@ h1 {
 .projects p a {
     color: inherit;
 }
-.projects p img {
+.body-container p a {
+    text-decoration: underline;
+    color: #EFEAD8;
+}
+.body-container a:hover {
+    color: #D0C9C0;
+}
+.projects img {
     max-height: 2em;
+    margin: auto;
+    display: block;
+}
+.gif {
+    min-height: 20em;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
 }
